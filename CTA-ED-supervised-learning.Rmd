@@ -167,6 +167,7 @@ We can then use the following code to classify this content. This code connects 
 All we need to do is tell it which features of text we want it to classify. We can do so using the `peRspective` library in R.
 
 ```{r, eval = F, echo = T}
+install.packages("peRspective")
 library(peRspective)
 library(dplyr)
 library(ggplot2)
